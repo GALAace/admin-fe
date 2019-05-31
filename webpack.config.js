@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     publicPath:WEBPACK_ENV==='dev'
-    ? '/dist/':'//s.admin.com/admin-ve-fe/dist/',
+    ? '/dist/':'//s.admin.com/admin-fe/dist/',
     filename: 'js/app.js'
   },
   resolve:{
